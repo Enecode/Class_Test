@@ -118,7 +118,7 @@ print("5. Probability that the color is red:", red_probability)
 
 # 6. Saving the colors and their frequencies in PostgreSQL database
 dataconnection = psycopg2.connect(database="class_exam", user="", password="",
-                                  host="localhost", port="5432")
+                                  host="localhost", port="")
 cursor = dataconnection.cursor()
 
 # Create a table to store color frequencies
